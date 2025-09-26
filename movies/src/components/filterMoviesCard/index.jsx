@@ -71,7 +71,7 @@ const [genres, setGenres] = useState([{ id: '0', name: "All" }])
         onChange={handleTextChange}
         />
         <FormControl sx={{...formControl}}>
-          <InputLabel id="genre-label">Genre</InputLabel>
+        <InputLabel id="genre-label"></InputLabel>
         <Select
             labelId="genre-label"
             id="genre-select"
